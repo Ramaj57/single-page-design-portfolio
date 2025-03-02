@@ -1,0 +1,22 @@
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+img{
+    height:3rem;
+    width:3rem;
+}
+@media (width >= 768px) {
+    img{
+        height:4rem;
+        width:4rem;
+    }
+  }
+  
+  @media (width >= 1440px) {
+    img{
+        margin:0;
+    }
+  }
+  
