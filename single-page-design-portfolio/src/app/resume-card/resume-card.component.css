@@ -1,0 +1,48 @@
+img{
+    height:18.75rem;
+    width:18.75rem;
+}
+
+h1{
+    color:var(--head-text1);
+    font-weight: 700;
+    font-size: 1.625rem;
+}
+
+p{
+    color:var(--para-text2);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media (width >= 768px){
+.card-container{
+    display:flex;
+}
+
+img{
+    height:22.75rem;
+    width:22.75rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.125rem;
+}
+}
+
+@media (width >= 1440px){
+    img{
+        height:27.8rem;
+        width:27.8rem;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+
+}
+
