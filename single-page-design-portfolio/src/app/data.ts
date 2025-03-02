@@ -1,8 +1,8 @@
 export const topics = [
-    // { name: "Graphic Design", image: "/assets/favicon-32x32.png"},
-    // { name: "UI/UX", image: },
-    // { name: "Apps", image: },
-    // { name: "Illustrations", image: },
-    // { name: "Photography", image: },
-    // { name: "Motion Graphics", image: } 
+    { name: "Graphic Design", image: "/assets/pattern-graphic-design.svg"},
+    { name: "UI/UX", image: "/assets/pattern-ui-ux.svg"},
+    { name: "Apps", image: "src/assets/pattern-apps.svg"},
+    { name: "Illustrations", image: "src/assets/pattern-illustrations.svg"},
+    { name: "Photography", image: "src/assets/pattern-photography.svg"},
+    { name: "Motion Graphics", image: "src/assets/pattern-motion-graphics.svg"} 
 ]
