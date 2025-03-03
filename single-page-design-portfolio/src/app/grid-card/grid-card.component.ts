@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, signal } from '@angular/core';
 
 @Component({
   selector: 'app-grid-card',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './grid-card.component.css'
 })
 export class GridCardComponent {
-
+name = input<string>('');
+image = input<string>('');
+backgroundColor = input<string>('');
 }
