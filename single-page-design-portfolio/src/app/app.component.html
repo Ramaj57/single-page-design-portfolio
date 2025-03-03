@@ -1,17 +1,26 @@
-<app-header-footer/>
+<app-header-footer />
 <h1>Design solutions made easy</h1>
-<p class="exp-para">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+<p class="exp-para">
+  With over ten years of experience in various design disciplines, I’m your
+  one-stop shop for your design needs.
+</p>
 <div class="grid-container">
-    @for (genre of genres; track genre.name) {
-        <app-grid-card [name]="genre.name" [image]="genre.image" [gridColor]="genre.backgroundColor"/>
-    }
+  @for (genre of genres; track genre.name) {
+  <app-grid-card [name]="genre.name" [image]="genre.image" />
+  }
 </div>
-<app-resume-card/>
+<app-resume-card />
 <h2>My Work</h2>
-<app-image-carousel/>
+<app-image-carousel />
 <div class="contact">
-<h3>Book a call with me</h3>
-<p class="contact-para">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
-<app-consultation-btn [buttonColor]="'#eb7565'"/>
+  <h3>Book a call with me</h3>
+  <p class="contact-para">
+    I’d love to have a chat to see how I can help you. The best first step is
+    for us to discuss your project during a free consultation. Then we can move
+    forward from there.
+  </p>
+  <div class="button">
+    <app-consultation-btn [buttonColor]="'#eb7565'" />
+  </div>
 </div>
-<app-header-footer/>
+<app-header-footer />
