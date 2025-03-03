@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root{
-    --GraphicDesign:#755cde;
-    --UI-UX:#f6a560;
-    --Apps:#f39e9e;
-    --Illustrations:#eb7565;
-    --Photography:#61c4b7;
-    --MotionGraphics:#552049;
+    --graphicDesign:#755cde;
+    --ui-ux:#f6a560;
+    --apps:#f39e9e;
+    --illustrations:#eb7565;
+    --photography:#61c4b7;
+    --motionGraphics:#552049;
     --head-text1:#030303;
     --head-text2:#fff7f0;
     --para-text1:#fff7f0;
@@ -16,4 +16,11 @@
     --btn1-hover:#755cde;
     --btn2-hover:#f6a560;
     font-family: "Plus Jakarta Sans", serif;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
