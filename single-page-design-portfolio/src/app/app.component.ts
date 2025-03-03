@@ -16,5 +16,5 @@ import { topics } from './data';
 })
 export class AppComponent {
   title = 'single-page-design-portfolio';
-  genre = topics;  
+  genres = topics;  
 }
