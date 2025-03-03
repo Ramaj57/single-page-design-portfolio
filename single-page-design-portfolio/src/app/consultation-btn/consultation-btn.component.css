@@ -6,7 +6,7 @@ button {
   border-radius: 28px;
   font-weight: 700;
   font-size: .875rem;
-  line-height: 28%;
+  line-height: 28px;
 }
 
 @media (width >= 768px) {

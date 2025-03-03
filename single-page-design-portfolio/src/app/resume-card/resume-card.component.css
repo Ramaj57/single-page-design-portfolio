@@ -1,18 +1,32 @@
+.image{
+    display:flex;
+    justify-content: center;
+}
 img{
     height:18.75rem;
     width:18.75rem;
+    margin-bottom: 2.5rem;
 }
 
 h1{
     color:var(--head-text1);
     font-weight: 700;
     font-size: 1.625rem;
+    margin: 0 1rem 1.5rem 1rem;
+    text-align: center;
 }
 
 p{
     color:var(--para-text2);
     font-weight: 500;
     font-size: 1rem;
+    margin: 0 1rem 1.5rem 1rem;
+    text-align: center;
+    line-height: 26px;
+}
+
+.button{
+    text-align: center;
 }
 
 @media (width >= 768px){
