@@ -3,7 +3,7 @@
 <p class="exp-para">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
 <div class="grid-container">
     @for (genre of genres; track genre.name) {
-        <app-grid-card [name]="genre.name" [image]="genre.image"/>
+        <app-grid-card [name]="genre.name" [image]="genre.image" [gridColor]="genre.backgroundColor"/>
     }
 </div>
 <app-resume-card/>
