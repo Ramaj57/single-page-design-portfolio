@@ -1,33 +1,102 @@
 h1 {
   font-weight: 700;
   font-size: 2.25rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left:2rem;
+  margin-right:2rem;
 }
 
 .exp-para {
   color: var(--para-text2);
   font-weight: 500;
   font-size: 1rem;
-  line-height: 26%;
+  text-align: center;
+  margin-left:3rem;
+  margin-right:3rem;
+  margin-bottom:2rem;
+  line-height: 26px;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+gap:1.5rem;
+padding:0 1rem;
+margin-bottom: 6.25rem;
+}
+
+.grid-container app-grid-card:nth-child(1){
+background-color: var(--graphicDesign);
+  grid-column: span 2;
+  border-radius: 0.5rem;
+}
+
+.grid-container app-grid-card:nth-child(2){
+  background-color: var(--ui-ux);
+  border-radius: 0.5rem;
+}
+
+.grid-container app-grid-card:nth-child(3){
+  background-color: var(--apps);
+  border-radius: 0.5rem;
+}
+
+.grid-container app-grid-card:nth-child(4){
+  background-color: var(--illustrations);
+  grid-column: span 2;
+  border-radius: 0.5rem;
+}
+
+.grid-container app-grid-card:nth-child(5){
+  background-color: var(--photography);
+  grid-column: span 2;
+  border-radius: 0.5rem;
+}
+
+.grid-container app-grid-card:nth-child(6){
+  background-color: var(--motionGraphics);
+  grid-column: span 2;
+  border-radius: 0.5rem;
 }
 
 h2 {
   font-weight: 700;
   font-size: 1.5rem;
+  margin-top: 6.25rem;
+  text-align: center;
 }
 
 .contact {
   background-color: var(--head-text1);
   height: 22rem;
-  width: 21.4rem;
   border-radius: 0.625rem;
+  margin: 6.25rem 1rem 2.625rem 1rem;
+  padding:3.25rem 1.5rem 0 1.5rem;
 }
 
 h3 {
   color: var(--head-text2);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.625rem;
+  font-weight: 700;
 }
 
 .contact-para {
   color: var(--para-text1);
+  margin-bottom: 1.5rem;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.button{
+  text-align: center;
 }
 
 @media (width >= 768px) {
