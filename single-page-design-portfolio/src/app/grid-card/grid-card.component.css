@@ -1,10 +1,14 @@
 .card-flex-container{
    display:flex;
    flex-direction: column;
-   color:var(--head-text2)
+   color:var(--head-text2);
+   height:11.375rem;
+   
 }
 
 img{
+    margin-top: 1.5rem;
+    margin-right:1.5em;
     height: 100px;
     align-self: flex-end;    
 }
