@@ -2,12 +2,9 @@
 <h1>Design solutions made easy</h1>
 <p class="exp-para">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
 <div class="grid-container">
- <app-grid-card [name]="genre[0].name" [image]="genre[0].image"/>
- <app-grid-card [name]="genre[1].name" [image]="genre[1].image"/>
- <app-grid-card [name]="genre[2].name" [image]="genre[2].image"/>
- <app-grid-card [name]="genre[3].name" [image]="genre[3].image"/>
- <app-grid-card [name]="genre[4].name" [image]="genre[4].image"/>
- <app-grid-card [name]="genre[5].name" [image]="genre[5].image"/>   
+    @for (genre of genres; track genre.name) {
+        <app-grid-card [name]="genre.name" [image]="genre.image"/>
+    }
 </div>
 <app-resume-card/>
 <h2>My Work</h2>
