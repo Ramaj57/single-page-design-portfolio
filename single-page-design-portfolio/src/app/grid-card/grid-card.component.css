@@ -8,3 +8,8 @@ img{
     height: 100px;
     align-self: flex-end;    
 }
+
+p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
