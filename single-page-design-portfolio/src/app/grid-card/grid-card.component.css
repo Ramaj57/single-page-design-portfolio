@@ -1,19 +1,39 @@
-.card-flex-container{
-   display:flex;
-   flex-direction: column;
-   color:var(--head-text2);
-   height:11.375rem;
-   
+.card-flex-container {
+  display: flex;
+  flex-direction: column;
+  color: var(--head-text2);
+  height: 11.375rem;
 }
 
-img{
-    margin-top: 1.5rem;
-    margin-right:1.5em;
-    height: 100px;
-    align-self: flex-end;    
+img {
+  margin-top: 1.5rem;
+  margin-right: 1.5em;
+  align-self: flex-end;
 }
 
-p{
-    font-weight: 700;
-    font-size: 1.5rem;
+.graphicDesign {
+  width: 8rem;
+  height: 12rem;
+}
+
+.uiUx,
+.apps {
+  width: 4rem;
+  height: 4rem;
+}
+
+.illustrations,
+.motionGraphics {
+  width: 8rem;
+  height: 4rem;
+}
+
+.photography {
+  width: 10rem;
+  height: 4rem;
+}
+
+p {
+  font-weight: 700;
+  font-size: 1.5rem;
 }

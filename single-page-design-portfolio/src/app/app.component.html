@@ -6,7 +6,7 @@
 </p>
 <div class="grid-container">
   @for (genre of genres; track genre.name) {
-  <app-grid-card [name]="genre.name" [image]="genre.image" />
+  <app-grid-card [name]="genre.name" [image]="genre.image" [sizeClass]="genre.sizeClass"/>
   }
 </div>
 <app-resume-card />
