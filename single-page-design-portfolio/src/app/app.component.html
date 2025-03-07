@@ -1,17 +1,21 @@
 <app-header-footer />
-<h1>Design solutions made easy</h1>
-<p class="exp-para">
-  With over ten years of experience in various design disciplines, I’m your
-  one-stop shop for your design needs.
-</p>
+  <h1>Design solutions made easy</h1>
+  <p class="exp-para">
+    With over ten years of experience in various design disciplines, I’m your
+    one-stop shop for your design needs.
+  </p>
 <div class="grid-container">
   @for (genre of genres; track genre.name) {
-  <app-grid-card [name]="genre.name" [image]="genre.image" [sizeClass]="genre.sizeClass"/>
+  <app-grid-card
+    [name]="genre.name"
+    [image]="genre.image"
+    [sizeClass]="genre.sizeClass"
+  />
   }
 </div>
 <app-resume-card />
 <h2>My Work</h2>
-<app-image-carousel />
+<app-image-carousel [images]="images" />
 <div class="contact">
   <h3>Book a call with me</h3>
   <p class="contact-para">
@@ -20,7 +24,7 @@
     forward from there.
   </p>
   <div class="button">
-    <app-consultation-btn [buttonColor]="'#eb7565'" />
+    <app-consultation-btn [buttonColor]="'#eb7565'" [hoverColor]="'#f6a560'" />
   </div>
 </div>
 <app-header-footer />

@@ -1,13 +1,14 @@
-import { NgStyle } from '@angular/common';
 import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-consultation-btn',
   standalone: true,
-  imports: [NgStyle],
+  imports: [],
   templateUrl: './consultation-btn.component.html',
   styleUrl: './consultation-btn.component.css'
 })
 export class ConsultationBtnComponent {
-buttonColor = input<string>('black');
+buttonColor = input<string>('#030303');
+hoverColor = input<string>('#755cde')
+isHovered = false;
 }
