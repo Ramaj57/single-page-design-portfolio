@@ -1,8 +1,9 @@
 .card-flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   color: var(--head-text2);
-  height: 11.375rem;
+  min-height:100%;
 }
 
 img {
@@ -11,29 +12,11 @@ img {
   align-self: flex-end;
 }
 
-.graphicDesign {
-  width: 8rem;
-  height: 12rem;
-}
-
-.uiUx,
-.apps {
-  width: 4rem;
-  height: 4rem;
-}
-
-.illustrations,
-.motionGraphics {
-  width: 8rem;
-  height: 4rem;
-}
-
-.photography {
-  width: 10rem;
-  height: 4rem;
-}
-
 p {
+  position:relative;
+  top:2rem;
+  margin-left:1.5rem;
+  margin-bottom:4rem;
   font-weight: 700;
   font-size: 1.5rem;
 }

@@ -1,28 +1,38 @@
-header{
-    display:flex;
-    justify-content: space-between;
+header {
+  display: flex;
+  justify-content: space-between;
 }
 
-img{
-    height:3rem;
-    width:3rem;
-    margin: 1rem 0 1rem 1rem;
+img {
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem 0 1rem 1rem;
 }
 
-.button{
-    margin-right:1rem;
-    margin-top:1rem;
-    
-
+.button {
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
+
 @media (width >= 768px) {
-    img{
-        height:4rem;
-        width:4rem;
-    }
+  img {
+    height: 4rem;
+    width: 4rem;
+    margin: 2rem 0 4rem 2.5rem;
   }
-  
-  @media (width >= 1440px) {
-    
+
+  .button {
+    margin-top: 2rem;
+    margin-right: 2.5rem;
   }
-  
+}
+
+@media (width >= 1440px) {
+  img {
+    margin: 2rem 0 4rem 10rem;
+  }
+
+  .button {
+    margin-right: 10rem;
+  }
+}
