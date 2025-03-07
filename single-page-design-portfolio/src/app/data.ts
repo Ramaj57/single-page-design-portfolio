@@ -30,3 +30,27 @@ export const topics = [
     sizeClass: 'motionGraphics'
   },
 ];
+
+
+export const carouselImages = [
+  {
+    src:"/assets/image-slide-1.jpg",
+    alt:"nope"
+  },
+  {
+    src:"/assets/image-slide-2.jpg",
+    alt:"not today"
+  },
+  {
+    src:"/assets/image-slide-3.jpg",
+    alt:"uh uh"
+  },
+  {
+    src:"/assets/image-slide-4.jpg",
+    alt:"muahaha"
+  },
+  {
+    src:"/assets/image-slide-5.jpg",
+    alt:"not a chance"
+  }
+]

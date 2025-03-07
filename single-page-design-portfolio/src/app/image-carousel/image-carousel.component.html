@@ -1,1 +1,22 @@
-<p>image-carousel works!</p>
+<div class="carousel-container">
+  <div class="carousel-wrapper">
+    @for (image of images(); track $index){
+    <img
+      [src]="image.src"
+      [alt]="image.alt"
+      [class.active]="$index === currentIndex"
+      class="carousel-img"
+    />
+    }
+  </div>
+</div>
+
+<div class="controls">
+  <button class="prev" (click)="toPrevSlide()" [ngClass]="{'hovered': prevIsHovered}" (mouseenter)="prevIsHovered = true" (mouseleave)="prevIsHovered = false">
+    <img src="/assets/icon-arrow-left.svg" alt="left arrow" />
+  </button>
+
+  <button class="next" (click)="toNextSlide()" [ngClass]="{'hovered': nextIsHovered}" (mouseenter)="nextIsHovered = true" (mouseleave)="nextIsHovered = false">
+    <img src="/assets/icon-arrow-right.svg" alt="right arrow" />
+  </button>
+</div>

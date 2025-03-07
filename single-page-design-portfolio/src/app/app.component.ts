@@ -1,10 +1,10 @@
-import { Component, input } from '@angular/core';
+import { Component} from '@angular/core';
 import { HeaderFooterComponent } from './header-footer/header-footer.component';
 import { GridCardComponent } from "./grid-card/grid-card.component";
 import { ResumeCardComponent } from "./resume-card/resume-card.component";
 import { ImageCarouselComponent } from "./image-carousel/image-carousel.component";
 import { ConsultationBtnComponent } from "./consultation-btn/consultation-btn.component";
-import { topics } from './data';
+import { topics, carouselImages } from './data';
 
 
 @Component({
@@ -16,5 +16,6 @@ import { topics } from './data';
 })
 export class AppComponent {
   title = 'single-page-design-portfolio';
-  genres = topics;  
+  genres = topics;
+  images = carouselImages;
 }
