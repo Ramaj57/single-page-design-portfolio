@@ -30,20 +30,9 @@ export class ImageCarouselComponent {
       '.carousel-wrapper'
     ) as HTMLElement;
     if (carouselWrapper) {
-      const screenWidth = window.innerWidth;
-      if (screenWidth < 768) {
         carouselWrapper.style.transform = `translateX(-${
-          this.currentIndex * 89
-        }%)`;
-      } else if (screenWidth < 1440) {
-        carouselWrapper.style.transform = `translateX(-${
-          this.currentIndex * 47.5
-        }%)`;
-      } else {
-        carouselWrapper.style.transform = `translateX(-${
-          this.currentIndex * 15
-        }%)`;
+          this.currentIndex * 21
+        }rem)`;
       }
     }
   }
-}
