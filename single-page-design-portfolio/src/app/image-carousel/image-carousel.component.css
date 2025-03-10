@@ -15,6 +15,11 @@
   height: 15.625rem;
   margin-right: 0.938rem;
   border-radius: 0.938rem;
+  opacity: 50%;
+}
+
+.carousel-img.active{
+opacity: 100%;
 }
 
 .controls {
