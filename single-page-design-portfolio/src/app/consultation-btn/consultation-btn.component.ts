@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, signal } from '@angular/core';
 
 @Component({
   selector: 'app-consultation-btn',
@@ -10,5 +10,5 @@ import { Component, input } from '@angular/core';
 export class ConsultationBtnComponent {
 buttonColor = input<string>('#030303');
 hoverColor = input<string>('#755cde')
-isHovered = false;
+isHovered = signal(false);
 }
