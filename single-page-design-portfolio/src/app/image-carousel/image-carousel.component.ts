@@ -31,7 +31,7 @@ export class ImageCarouselComponent {
     ) as HTMLElement;
     if (carouselWrapper) {
         carouselWrapper.style.transform = `translateX(-${
-          this.currentIndex * 21
+          this.currentIndex * 22.5
         }rem)`;
       }
     }
