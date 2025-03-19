@@ -18,8 +18,8 @@
   opacity: 50%;
 }
 
-.carousel-img.active{
-opacity: 100%;
+.carousel-img.active {
+  opacity: 100%;
 }
 
 .controls {
@@ -37,6 +37,11 @@ opacity: 100%;
 
 .prev {
   margin-right: 1rem;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: var(--btn1-hover);
 }
 
 button {

@@ -12,11 +12,11 @@
 </div>
 
 <div class="controls">
-  <button class="prev" (click)="toPrevSlide()" [ngClass]="{'hovered': prevIsHovered}" (mouseenter)="prevIsHovered = true" (mouseleave)="prevIsHovered = false">
+  <button class="prev" (click)="toPrevSlide()">
     <img src="/assets/icon-arrow-left.svg" alt="left arrow" />
   </button>
 
-  <button class="next" (click)="toNextSlide()" [ngClass]="{'hovered': nextIsHovered}" (mouseenter)="nextIsHovered = true" (mouseleave)="nextIsHovered = false">
+  <button class="next" (click)="toNextSlide()">
     <img src="/assets/icon-arrow-right.svg" alt="right arrow" />
   </button>
 </div>

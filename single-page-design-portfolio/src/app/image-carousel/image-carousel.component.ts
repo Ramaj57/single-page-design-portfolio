@@ -1,18 +1,15 @@
-import { NgClass } from '@angular/common';
 import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-image-carousel',
   standalone: true,
-  imports: [NgClass],
+  imports: [],
   templateUrl: './image-carousel.component.html',
   styleUrl: './image-carousel.component.css',
 })
 export class ImageCarouselComponent {
   currentIndex = 0;
   images = input<{ src: string; alt: string }[]>([]);
-  prevIsHovered = false;
-  nextIsHovered = false;
 
   toPrevSlide() {
     this.currentIndex =
